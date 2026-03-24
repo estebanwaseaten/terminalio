@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dterminalio_EXPORTS
 
-CXX_INCLUDES = -I/home/daniel/projects/testing/deltascope_cpp/libs/terminalio/include -I/home/daniel/projects/testing/deltascope_cpp/libs/terminalio/../threader/include -I/home/daniel/projects/testing/deltascope_cpp/libs/terminalio/src -I/home/daniel/projects/testing/deltascope_cpp/libs/threader/include
+CXX_INCLUDES = -I/home/wegkamp/development/lambdascope/libs/terminalio/include -I/home/wegkamp/development/lambdascope/libs/terminalio/../threader/include -I/home/wegkamp/development/lambdascope/libs/terminalio/src -I/home/wegkamp/development/lambdascope/libs/threader/include
 
 CXX_FLAGS = -fPIC -pg -std=gnu++17
 

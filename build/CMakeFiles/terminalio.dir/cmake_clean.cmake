@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/daniel/projects/testing/deltascope_cpp/libs/terminalio/libterminalio.pdb"
-  "/home/daniel/projects/testing/deltascope_cpp/libs/terminalio/libterminalio.so"
+  "/home/wegkamp/development/lambdascope/libs/terminalio/libterminalio.pdb"
+  "/home/wegkamp/development/lambdascope/libs/terminalio/libterminalio.so"
   "CMakeFiles/terminalio.dir/src/buffer.cpp.o"
   "CMakeFiles/terminalio.dir/src/buffer.cpp.o.d"
   "CMakeFiles/terminalio.dir/src/console.cpp.o"

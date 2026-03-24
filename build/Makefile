@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/projects/testing/deltascope_cpp
+CMAKE_SOURCE_DIR = /home/wegkamp/development/lambdascope
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/projects/testing/deltascope_cpp/build
+CMAKE_BINARY_DIR = /home/wegkamp/development/lambdascope/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/projects/testing/deltascope_cpp/build/CMakeFiles /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build//CMakeFiles/progress.marks
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/projects/testing/deltascope_cpp/build/CMakeFiles 0
+	cd /home/wegkamp/development/lambdascope/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wegkamp/development/lambdascope/build/CMakeFiles /home/wegkamp/development/lambdascope/libs/terminalio/build//CMakeFiles/progress.marks
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/wegkamp/development/lambdascope/libs/terminalio/build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wegkamp/development/lambdascope/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/clean
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/wegkamp/development/lambdascope/libs/terminalio/build/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,31 +103,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/preinstall
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/wegkamp/development/lambdascope/libs/terminalio/build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/preinstall
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/wegkamp/development/lambdascope/libs/terminalio/build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/wegkamp/development/lambdascope/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-/home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/rule:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/rule
-.PHONY : /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/rule
+/home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/rule:
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/rule
+.PHONY : /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/rule
 
 # Convenience name for target.
-terminalio: /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/rule
+terminalio: /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/rule
 .PHONY : terminalio
 
 # fast build rule for target.
 terminalio/fast:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build
 .PHONY : terminalio/fast
 
 src/buffer.o: src/buffer.cpp.o
@@ -135,7 +135,7 @@ src/buffer.o: src/buffer.cpp.o
 
 # target to build an object file
 src/buffer.cpp.o:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/buffer.cpp.o
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/buffer.cpp.o
 .PHONY : src/buffer.cpp.o
 
 src/buffer.i: src/buffer.cpp.i
@@ -143,7 +143,7 @@ src/buffer.i: src/buffer.cpp.i
 
 # target to preprocess a source file
 src/buffer.cpp.i:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/buffer.cpp.i
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/buffer.cpp.i
 .PHONY : src/buffer.cpp.i
 
 src/buffer.s: src/buffer.cpp.s
@@ -151,7 +151,7 @@ src/buffer.s: src/buffer.cpp.s
 
 # target to generate assembly for a file
 src/buffer.cpp.s:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/buffer.cpp.s
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/buffer.cpp.s
 .PHONY : src/buffer.cpp.s
 
 src/console.o: src/console.cpp.o
@@ -159,7 +159,7 @@ src/console.o: src/console.cpp.o
 
 # target to build an object file
 src/console.cpp.o:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/console.cpp.o
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/console.cpp.o
 .PHONY : src/console.cpp.o
 
 src/console.i: src/console.cpp.i
@@ -167,7 +167,7 @@ src/console.i: src/console.cpp.i
 
 # target to preprocess a source file
 src/console.cpp.i:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/console.cpp.i
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/console.cpp.i
 .PHONY : src/console.cpp.i
 
 src/console.s: src/console.cpp.s
@@ -175,7 +175,7 @@ src/console.s: src/console.cpp.s
 
 # target to generate assembly for a file
 src/console.cpp.s:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/console.cpp.s
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/console.cpp.s
 .PHONY : src/console.cpp.s
 
 src/input.o: src/input.cpp.o
@@ -183,7 +183,7 @@ src/input.o: src/input.cpp.o
 
 # target to build an object file
 src/input.cpp.o:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/input.cpp.o
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/input.cpp.o
 .PHONY : src/input.cpp.o
 
 src/input.i: src/input.cpp.i
@@ -191,7 +191,7 @@ src/input.i: src/input.cpp.i
 
 # target to preprocess a source file
 src/input.cpp.i:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/input.cpp.i
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/input.cpp.i
 .PHONY : src/input.cpp.i
 
 src/input.s: src/input.cpp.s
@@ -199,7 +199,7 @@ src/input.s: src/input.cpp.s
 
 # target to generate assembly for a file
 src/input.cpp.s:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/input.cpp.s
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/input.cpp.s
 .PHONY : src/input.cpp.s
 
 src/terminal.o: src/terminal.cpp.o
@@ -207,7 +207,7 @@ src/terminal.o: src/terminal.cpp.o
 
 # target to build an object file
 src/terminal.cpp.o:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/terminal.cpp.o
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/terminal.cpp.o
 .PHONY : src/terminal.cpp.o
 
 src/terminal.i: src/terminal.cpp.i
@@ -215,7 +215,7 @@ src/terminal.i: src/terminal.cpp.i
 
 # target to preprocess a source file
 src/terminal.cpp.i:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/terminal.cpp.i
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/terminal.cpp.i
 .PHONY : src/terminal.cpp.i
 
 src/terminal.s: src/terminal.cpp.s
@@ -223,7 +223,7 @@ src/terminal.s: src/terminal.cpp.s
 
 # target to generate assembly for a file
 src/terminal.cpp.s:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(MAKE) $(MAKESILENT) -f /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/terminal.cpp.s
+	cd /home/wegkamp/development/lambdascope/build && $(MAKE) $(MAKESILENT) -f /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/build.make /home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/terminal.cpp.s
 .PHONY : src/terminal.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/daniel/projects/testing/deltascope_cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/wegkamp/development/lambdascope/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

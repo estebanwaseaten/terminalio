@@ -1,7 +1,7 @@
-/home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/console.cpp.o: \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/src/console.cpp \
+/home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/console.cpp.o: \
+ /home/wegkamp/development/lambdascope/libs/terminalio/src/console.cpp \
  /usr/include/stdc-predef.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/src/debug.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/src/debug.h \
  /usr/include/c++/12/iostream \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
@@ -151,8 +151,8 @@
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/include/terminalio/console.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/include/terminalio/buffer.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/include/terminalio/console.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/include/terminalio/buffer.h \
  /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
  /usr/include/c++/12/bits/algorithmfwd.h \
  /usr/include/c++/12/bits/stl_heap.h \

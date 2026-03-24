@@ -1,7 +1,7 @@
-/home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/buffer.cpp.o: \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/src/buffer.cpp \
+/home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/buffer.cpp.o: \
+ /home/wegkamp/development/lambdascope/libs/terminalio/src/buffer.cpp \
  /usr/include/stdc-predef.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/include/terminalio/buffer.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/include/terminalio/buffer.h \
  /usr/include/c++/12/iostream \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
@@ -191,4 +191,4 @@
  /usr/include/c++/12/bits/stl_numeric.h /usr/include/c++/12/bit \
  /usr/include/c++/12/pstl/glue_numeric_defs.h /usr/include/c++/12/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/src/debug.h
+ /home/wegkamp/development/lambdascope/libs/terminalio/src/debug.h

@@ -1,7 +1,7 @@
-/home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/terminal.cpp.o: \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/src/terminal.cpp \
+/home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/terminal.cpp.o: \
+ /home/wegkamp/development/lambdascope/libs/terminalio/src/terminal.cpp \
  /usr/include/stdc-predef.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/include/terminalio/terminal.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/include/terminalio/terminal.h \
  /usr/include/termios.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
@@ -217,7 +217,7 @@
  /usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/aarch64-linux-gnu/bits/sigthread.h \
  /usr/include/aarch64-linux-gnu/bits/signal_ext.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/include/terminalio/input.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/include/terminalio/input.h \
  /usr/include/c++/12/functional /usr/include/c++/12/tuple \
  /usr/include/c++/12/bits/uses_allocator.h \
  /usr/include/c++/12/bits/std_function.h \
@@ -234,15 +234,15 @@
  /usr/include/c++/12/bits/stl_heap.h \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/uniform_int_dist.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/../threader/include/threader/threader.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/../threader/include/threader/threader.h \
  /usr/include/c++/12/thread /usr/include/c++/12/bits/std_thread.h \
  /usr/include/c++/12/bits/unique_ptr.h \
  /usr/include/c++/12/bits/this_thread_sleep.h \
  /usr/include/c++/12/bits/chrono.h /usr/include/c++/12/ratio \
  /usr/include/c++/12/limits /usr/include/c++/12/ctime \
  /usr/include/c++/12/bits/parse_numbers.h /usr/include/c++/12/chrono \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/include/terminalio/console.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/include/terminalio/buffer.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/include/terminalio/console.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/include/terminalio/buffer.h \
  /usr/include/c++/12/algorithm \
  /usr/include/c++/12/pstl/glue_algorithm_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h /usr/include/c++/12/random \
@@ -274,4 +274,4 @@
  /usr/include/c++/12/bits/stl_numeric.h /usr/include/c++/12/bit \
  /usr/include/c++/12/pstl/glue_numeric_defs.h /usr/include/c++/12/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/src/debug.h
+ /home/wegkamp/development/lambdascope/libs/terminalio/src/debug.h

@@ -1,7 +1,7 @@
-/home/daniel/projects/testing/deltascope_cpp/libs/terminalio/build/CMakeFiles/terminalio.dir/src/input.cpp.o: \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/src/input.cpp \
+/home/wegkamp/development/lambdascope/libs/terminalio/build/CMakeFiles/terminalio.dir/src/input.cpp.o: \
+ /home/wegkamp/development/lambdascope/libs/terminalio/src/input.cpp \
  /usr/include/stdc-predef.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/src/debug.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/src/debug.h \
  /usr/include/c++/12/iostream \
  /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
@@ -151,7 +151,7 @@
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/include/terminalio/input.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/include/terminalio/input.h \
  /usr/include/c++/12/functional /usr/include/c++/12/tuple \
  /usr/include/c++/12/bits/uses_allocator.h \
  /usr/include/c++/12/bits/std_function.h \
@@ -172,7 +172,7 @@
  /usr/include/c++/12/bits/stl_heap.h \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/uniform_int_dist.h \
- /home/daniel/projects/testing/deltascope_cpp/libs/terminalio/../threader/include/threader/threader.h \
+ /home/wegkamp/development/lambdascope/libs/terminalio/../threader/include/threader/threader.h \
  /usr/include/c++/12/thread /usr/include/c++/12/bits/std_thread.h \
  /usr/include/c++/12/bits/unique_ptr.h \
  /usr/include/c++/12/bits/this_thread_sleep.h \
